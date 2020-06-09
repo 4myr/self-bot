@@ -1,4 +1,6 @@
 # AMYR Python Self Bot
+My Telegram: [@AMYRDev](https://t.me/amyrdev)
+
 This is a funny telegram script that destributed by [Telethon](https://github.com/LonamiWebs/Telethon) python library.
 You can login this bot by your original telegram account and use fun commands.
 
