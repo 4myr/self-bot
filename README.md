@@ -9,11 +9,11 @@ Commands:
   - !ping
   - !selfhelp
   - !me
-  - !animchar [loop] [char]
-  - !heart [loop]
-  -	!smile [loop]
-  -	!flood [loop]
-  - !mention [max] [text]
+  - !a(nim) [loop] [chararacters]
+  - !h(eart) [loop]
+  -	!s(mile) [loop]
+  -	!f(lood) [loop]
+  - !m(ention) [max] [text]
   - !id [reply]
   - !stats
   - And other fun commands....
