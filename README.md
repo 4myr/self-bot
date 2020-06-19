@@ -15,6 +15,7 @@ Commands:
   -	!f(lood) [loop]
   - !m(ention) [max] [text]
   - !id [reply]
+  - !ui [@username]
   - !stats
   - And other fun commands....
 
