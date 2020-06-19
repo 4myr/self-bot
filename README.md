@@ -33,7 +33,7 @@ Then, please install python3 and telethon library by pip3
 $ sudo apt update
 $ sudo apt install python3 screen
 $ pip3 install --upgrade pip
-$ pip3 install telethon psutil
+$ pip3 install telethon psutil requests
 $ cd self-bot
 ```
 
