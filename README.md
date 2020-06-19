@@ -6,10 +6,14 @@ You can login this bot by your original telegram account and use fun commands.
 
 ---
 Commands:
+  - !ping
   - !selfhelp
   - !me
   - !animchar [loop] [char]
   - !heart [loop]
+  -	!smile [loop]
+  -	!flood [loop]
+  - !mention [max] [text]
   - !id [reply]
   - !stats
   - And other fun commands....
@@ -27,7 +31,8 @@ Then, please install python3 and telethon library by pip3
 ```sh
 $ sudo apt update
 $ sudo apt install python3 screen
-$ pip3 install telethon
+% pip3 install --upgrade pip
+$ pip3 install telethon psutil
 $ cd self-bot
 ```
 
@@ -35,8 +40,10 @@ Now, you have to edit `config.py` file by `nano config.py`
 Enter your API KEY & API HASH between quotes
 
 Now you can start and login bot
+in Windows you can run `launch.bat` file
+in Linux you can run `launch.sh`
 ```sh
-$ screen python3 bot.py
+$ screen ./launch.sh
 ```
 
 For first time you must login your account and for next times you don't need to it.
