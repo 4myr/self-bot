@@ -9,7 +9,7 @@ Commands:
   - !ping
   - !selfhelp
   - !me
-  - !a(nim) [loop] [chararacters]
+  - !a(nim) [loop] [characters]
   - !h(eart) [loop]
   -	!s(mile) [loop]
   -	!f(lood) [loop]
