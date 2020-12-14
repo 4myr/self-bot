@@ -35,6 +35,8 @@ async def newMessage(event):
     elif hasattr(event.to_id, 'channel_id'):
         to_id = event.to_id.channel_id
     cmd_message = str(event.raw_text)
+    if isinstance(cmd_message, str):
+        cmd_message = cmd_message.lower()
     splited_cmd_message = cmd_message.split(' ', 2)
     splited_cmd_message3 = cmd_message.split(' ', 3)
     me = await client.get_me()
